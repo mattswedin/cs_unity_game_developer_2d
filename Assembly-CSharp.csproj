@@ -37,9 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Driver.cs" />
-     <Compile Include="Assets/Collision.cs" />
-     <Compile Include="Assets/PrintToConsole.cs" />
      <Compile Include="Assets/FollowCamera.cs" />
+     <Compile Include="Assets/Delivery.cs" />
+     <Compile Include="Assets/PrintToConsole.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Volumes/Carl/Unity/2021.3.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

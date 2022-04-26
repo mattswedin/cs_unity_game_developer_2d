@@ -7,7 +7,7 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] GameObject thingToFollow;
     // camera should be the same position as the player
     
-    void Update()
+    void LateUpdate()
     {
         transform.position = thingToFollow.transform.position + new Vector3 (0, 0, -2);
     }
